@@ -1,0 +1,254 @@
+body{
+	margin-top: 50px;
+	min-width: 1000px;
+	color:#999999;
+}
+.head{
+
+	
+	background-color: #2d2d2d;
+	background-image: -moz-linear-gradient(top, #2d2d2d, rgb(65, 63, 63));
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#2d2d2d), to(rgb(65, 63, 63)));
+	background-image: -webkit-linear-gradient(top, #2d2d2d, rgb(65, 63, 63));
+	background-image: -o-linear-gradient(top, #2d2d2d, rgb(65, 63, 63));
+	background-image: linear-gradient(to bottom, #2d2d2d, rgb(65, 63, 63));
+	background-repeat: repeat-x;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='rgb(247, 249, 250)', endColorstr='rgb(65, 63, 63)', GradientType=0);
+	height: 35px;
+	border-bottom: 1px solid #e1e1e8;
+	vertical-align:middle;
+	-webkit-box-shadow: 0 0 5px #c3c3c3;
+	-moz-box-shadow: 0 0 5px #c3c3c3;
+	box-shadow: 0 0 5px #c3c3c3;
+} 
+
+
+
+.head .login-info{
+	
+	border-top:#0088cc 4px solid;
+	padding-right:30px;
+	margin-right:-15px;
+	padding-left:10px;
+	vertical-align: middle;
+	color:#ccc!important;
+	line-height: 25px;
+	font-weight: bold;
+	color: #999999;
+	font: 13px/27px Arial,sans-serif;
+	cursor: pointer;
+	
+}
+
+.head .login-info:HOVER{
+	
+	background-color: #2d2d2d;
+	
+}
+
+.head .logo{
+	
+	display:inline-block;
+	margin-left:25px;
+	
+}
+
+.head .logo a{
+	
+	display: inline-block;
+	padding: 10px 20px 10px;
+	margin-left: -20px;
+	font-size: 20px;
+	font-weight: 200;
+	color: #999999;
+	text-shadow: 0 1px 0 #ffffff;
+	
+}
+
+
+.login-info .caret{
+	
+	border-left:#ccc 1px solid;
+	margin-top: 10px;
+	margin-left:90px;
+	
+}
+
+
+.side{
+	
+	margin-left: 0px;
+	padding-left: 20px;
+	background-color: #f7f7f9;
+	border: 1px solid #e1e1e8;
+	padding-bottom:20px;
+	
+}
+
+.side li{
+	
+	line-height: 25px;
+	
+}
+
+.side li.active{
+	
+	margin-right:-1px;
+	line-height: 30px;
+	
+}
+
+.side li.active a{
+	
+	font-weight: bolder;
+	color:#999999;
+	background-color: #fff;
+	text-shadow:none;
+	border-left: 2px solid #e1e1e8;
+	border-top: 1px solid #e1e1e8;
+	border-bottom: 1px solid #e1e1e8;
+	
+}
+
+.side h3{
+	
+	
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #999999;
+	font-size: 16px;
+}
+
+.content{
+	
+	padding-right: 20px;
+	
+}
+
+.content .hero-unit{
+	
+	background-color: #EAF8FF;
+	min-height:140px;
+	padding:10px;
+	border: 2px solid #e1e1e8;
+	-webkit-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	-moz-box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	box-shadow: 0 1px 4px rgba(0,0,0,.065);
+	
+}
+
+.hero-unit .hero-head{
+	
+	margin:-10px;
+	background-color: #D4EEFD;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px 6px 0px 0px;
+	color:#99C3D8;
+	padding-left:10px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	font-size: 14px;
+	font-weight: bold;
+	
+}
+
+.hero-unit .big-info{
+	
+	text-align: center;
+	padding:10px;
+	
+}
+
+.hero-unit .big-info h1{
+	font-size:100px;
+	color:#99C3D8;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	font-family: STCaiyun ,FangSong  ;
+}
+
+.hero-unit .big-info h3{
+	font-size:70px;
+	color:#99C3D8;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	font-family: STCaiyun ,FangSong  ;
+}
+
+.content .topbar{
+
+	overflow:hidden;
+	margin-left: -10px;
+	padding-left: 10px;
+	
+}
+
+.content .topbar h2{
+	
+	line-height: 25px;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+	color: #999999;
+	font-size: 16px;
+	display: inline-block;
+	
+}
+
+.content .topbar .breadcrumb{
+	margin:10px 10px 10px 0px;
+}
+
+.push-form label{
+	
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.cloud-fluid{
+	
+	padding-left: 0px;
+	
+}
+
+.space{
+	
+	height: 10px;
+	border-top: 1px solid #e1e1e8;
+	
+}
+
+.pagination{
+	
+	text-align: right;
+	
+}
+
+.table{
+	color:#999999;
+}
+
+.table td{
+	vertical-align: middle;
+}
+
+.btn-small .caret{
+	margin: 8px 0px 8px 0px;
+}
+
+.field-info{
+	
+	margin-left:95px;
+	
+}
+
+ @media (max-width: 980px) {
+   /* Enable use of floated navbar text */
+   .navbar-text.pull-right {
+     float: none;
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+   
+   body {
+   	padding-top: 90px;
+   }
+   
+ }
+
+

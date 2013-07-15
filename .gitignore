@@ -1,0 +1,10 @@
+.classpath
+*/.classpath
+.settings/
+*/.settings/
+*.class/
+target/
+*/target/
+*/*/target/
+
+Commons/.classpath
